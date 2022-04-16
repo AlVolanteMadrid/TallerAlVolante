@@ -28,19 +28,48 @@
         </nav>
       </header>
 
+      <!-- FORMULARIO -->
+      <div id="form">
+        <h2>Quiero recibir información y ofertas acerca del taller.</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+
+          <div id="form1">
+            <label for="gm">CORREO ELECTRÓNICO:</label><input type="email" id="gm" placeholder="nombrecorrero@gmail.com">
+            <label for="tel">TELÉFONO:</label><input type="tel" id="tel" placeholder="(+34)">
+            <p>SEXO:</p>
+            <label for="hombre" class="sexo">HOMBRE</label><input type="radio" name="sexo" id="hombre" value="hombre">
+            <label for="mujer" class="sexo">MUJER</label><input type="radio" name="sexo" id="mujer" value="mujer">
+            <label for="otro" class="sexo">OTRO</label><input type="radio" name="sexo" id="otro" value="otro">
+            <label for="especificar" class="especificar">Especificar:</label><input type="text" id="especificar" class="especificar">
+          </div>
+
+          <div id="form2">
+            <label for="nom">NOMBRE:</label><input type="text" id="nom">
+            <label for="ob">¿POR QUÉ ESTÁS INTERESADO?</label><textarea id="ob" cols="42" rows="5"></textarea>
+          </div>
+
+          <input type="submit" class="bot" value="ENVIAR">
+
+        </form>
+      </div>
+
       <!-- IMAGEN Y ARGUMENTO -->
       <div id="arg">
 
-        <img src="img/inicio/inicio2.jpg" alt="Imagen reparación en taller">
-
-        <div id="tit">
-
-          <p>TALLER AL VOLANTE</p>
-          <p>El talller mejor preparado para la reparación de tu auto en madrid.</p>
-        </div>
-
         <div>
-          <p></p>
+
+          <img src="img/inicio/inicio2.jpg" alt="Imagen reparación en taller">
+
+          <div id="tit">
+
+            <p>TALLER AL VOLANTE</p>
+            <p>Somos el taller mejor preparado para la reparación y mantenamiento de su vehículo en Madrid.</p>
+            <img src="img/icono.ico" alt="logo Al Volante Madrid">
+          </div>
+
+          <div>
+            <p></p>
+          </div>
         </div>
       </div>
 
