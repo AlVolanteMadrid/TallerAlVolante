@@ -158,8 +158,9 @@ form textarea{
 input.bot{
   top: 470px;
   height: 60px;
-  left: 850px;
+  
   cursor: pointer;
+  border: 0;
 }
 
 
@@ -277,6 +278,7 @@ input.bot{
   border-radius: 8px;
   transition: 0.5s;
   box-shadow: inset 0px 0 0 0 rgb(16, 84, 241);
+  cursor: pointer;
 }
 
 .bot:hover{
