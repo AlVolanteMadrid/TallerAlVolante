@@ -30,7 +30,7 @@ h2{
 #contenedor {
   background-color: white;
   width: 1200px;
-  min-height: 1400px;
+  height: 1700px;
   position: relative;
   margin: 0 auto;
 }
@@ -49,7 +49,7 @@ header nav {
   color: white;
   padding-top: 7px;
   padding-bottom: 7px;
-  background-color: rgb(0, 0, 58);
+  background-color: rgb(0, 0, 0);
 }
 
 nav div{
@@ -62,6 +62,15 @@ nav>div:hover{
   transition: 0.3s;
 }
 
+#titulo{
+  width: 1200px;
+  height: 230px;
+  top: 200px;
+  text-align: center;
+  padding-top: 150px;
+  color: rgb(0, 0, 63);
+}
+
 
 /* FORMULARIO */
 #form{
@@ -69,6 +78,15 @@ nav>div:hover{
   top: 100px;
   width: 1200px;
   height: 600px;
+}
+
+#form>h3{
+  font-weight: bolder;
+  display: block;
+  width: 900px;
+  margin-left: 50px;
+  font-size: 17px;
+  margin-bottom: 20px;
 }
 
 form>div{
@@ -158,7 +176,7 @@ form textarea{
 input.bot{
   top: 470px;
   height: 60px;
-  
+  margin-top: -50px;
   cursor: pointer;
   border: 0;
 }
