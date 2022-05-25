@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALVOLANTE MADRID</title>
-    <link rel="stylesheet" href="css/styles.css" />
-
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
     <link rel="icon" type="image/x-icon" href="img/icono.ico">
 
   </head>
@@ -45,10 +45,14 @@
             <label for="gm">CORREO ELECTRÓNICO:</label><input type="email" id="gm" placeholder="nombrecorrero@gmail.com">
             <label for="tel">TELÉFONO:</label><input type="tel" id="tel" placeholder="(+34)">
             <p>SEXO:</p>
-            <label for="hombre" class="sexo">HOMBRE</label><input type="radio" name="sexo" id="hombre" value="hombre">
-            <label for="mujer" class="sexo">MUJER</label><input type="radio" name="sexo" id="mujer" value="mujer">
-            <label for="otro" class="sexo">OTRO</label><input type="radio" name="sexo" id="otro" value="otro">
-            <label for="especificar" class="especificar">Especificar:</label><input type="text" id="especificar" class="especificar">
+            <div class="sexo"> 
+              <label for="hombre" class="sexo" id="labelHombre">HOMBRE</label><input type="radio" name="sexo" id="hombre" value="hombre">
+              <label for="mujer" class="sexo">MUJER</label><input type="radio" name="sexo" id="mujer" value="mujer">
+              <label for="otro" class="sexo">OTRO</label><input type="radio" name="sexo" id="otro" value="otro">
+            </div>
+           
+            
+            
           </div>
 
           <div id="form2">
@@ -85,6 +89,19 @@
       </div>
 
       <div><a class="bot" onclick="enProceso()">VISITAR</a></div>
+
+      <footer>
+        <div>
+          <div class="contactar"><img src="img/llamada_telefonica.png" alt="" srcset="" />600-333-016</div>
+
+          <div class="contactar"><img src="img/email.png" alt="" srcset="" />ALVOLANTE@gmail.com</div>
+
+          <div class="contactar"><img src="img/ubicacion.png" alt="" srcset="" />Av. de Europa, 15,28922 Alcorcón, Madrid</div>
+
+          <img src="img/instagram.png" alt="Logo instagram">
+          <img src="img/twitter.png" alt="Logo twitter">
+        </div>
+      </footer>
     </div>
   </body>
   <script src="js/javascript.js"></script>
