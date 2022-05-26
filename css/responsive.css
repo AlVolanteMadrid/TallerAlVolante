@@ -208,9 +208,14 @@
     top: -90px;
   }
 
+  div.contactar:first-of-type{
+    padding-top: 8px;
+  }
+
   div.contactar{
     display: block;
     margin-top: 14px;
+    padding-left: 5px;
   }
 
   div.contactar>img{
