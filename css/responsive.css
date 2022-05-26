@@ -4,7 +4,7 @@
   /* CONTENEDOR */
   #contenedor {
     width: 100%;
-    height: 2140px;
+    height: 2160px;
   }
 
 
@@ -229,6 +229,10 @@
   /* TABLETS */
   @media only screen and (min-width: 600px) and (max-width: 899px){
 
+    /* CONTENEDOR */
+    #contenedor {
+      height: 2260px;
+    }
     /* FORMULARIO */
     #form2{
       top: 470px;
@@ -266,7 +270,7 @@
   @media only screen and (min-width: 900px) and (max-width: 1199px){
     /* CONTENEDOR */
     #contenedor {
-      height: 2000px;
+      height: 2020px;
     }
 
     nav div{
